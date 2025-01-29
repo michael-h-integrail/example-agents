@@ -2,7 +2,7 @@
 This folder contains examples for the Readability Node
 
 
-## [ex-Readability](https://github.com/michael-h-integrail/example-agents/simple-node-examples/ex-Readability.json)
+## [ex-Readability](https://github.com/michael-h-integrail/example-agents/simple-node-examples/Readability/ex-Readability.json)
 This is a basic example of using the Readability node.  Things to try:
 
 ### Chat with the Agent
