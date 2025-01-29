@@ -57,7 +57,7 @@ If there is no Fallback Output value, when a node fails, instead of continuing t
 
 NOTE: If you wan to create a custom fallback output message, use the below JSON array format **exactly**.  Only change the value inside the quotes "Custom Fallback message"
 ```json
-[ { "name" : "content, "value" : "Custom Fallback Message"} ]
+[ { "name" : "content", "value" : "Custom Fallback Message"} ]
 ```
 
 ### Have a Question or Need Help?
