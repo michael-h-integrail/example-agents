@@ -42,18 +42,37 @@ If you don’t want to use Git, you can download the repository as a ZIP file:
 Now you have access to the files without needing Git.
 
 ## Using the Examples
-The `simple-node-examples` folder contains some very simple examples by node type.  To use an example:
+Once you have the example files, to try them in Integrail's Agent Studio yourself, follow these steps:
 1. Login or Sign up for a FREE Integrail Studio account at [studio.integrail.ai](https://studio.integrail.ai/) 
-2Once Logged In, Click 'Create New Agent'
-2. Click "..." menu, next to the file dropdown in the top/middle section of the window.
-3. Click the upload icon:  
+2. Once Logged In, Click 'Create New Agent'
+3. Click "..." menu, next to the file dropdown in the top/middle section of the window.
+4. Click the upload icon:  
       ![Upload Icon](doc/img/upload.png)
-4. Click **"Choose File"**
-5. Browse to the example you wish to try in Integrail Studio and select it
+5. Click **"Choose File"**
+6. Browse to the example you wish to try in Integrail's Agent Studio and select it
 
-You can run the examples in the Designer (recommended for a deeper understanding).
+7. [View the `simple-node-examples` folder](https://github.com/michael-h-integrail/example-agents/tree/main/simple-node-examples)
 
-Or you can Click **"Chat with Agents"** on the left navigation bar and select the agent you want to chat with.  
+You have a couple of options for how to run the Agents:
 
-This provides a simple chat interface with the example agent.  
-Be sure to check out the Readme.md file in each folder for more information and detailed notes the agents in that folder
+### Chat with the Agent
+If you simply want to try chatting with an agent without worrying about what's under the hood, just follow these steps:
+1. Click **"Chat with Agents"** item in the left navigation bar
+2. Select the agent with which you wish to chat.
+3. Chat away (type text inputs, input files, etc. using the simple chat interface)
+
+### View or Tweak in the Agent Designer
+If you are curious about how the agent was build, and you want to experiment with it, follow these steps: 
+
+1. If you are already in the **"Chat with Agents"** screen, click the edit icon in the top right section of that window.  This opens the Design View for the agent you're using.
+
+Otherwise, follow these steps:
+1. Click **"Design Agents"** on the left navigation bar
+2. In the top/center of the window, click the Agent selector dropdown
+3. Select the agent you want to view/change
+
+You will see the Agent inputs on the left (you can try specific inputs by selecting this node and viewing its properties).  Similarly, you can see the Agent outputs on the right. 
+
+You will also see intermediate nodes in the middle.  You can configure various parameters (for instance try changing the **System Prompt** of an LLM node to change it's behavior)
+
+**Be sure to check out the Readme.md file in each folder for more information and detailed notes the agents in that folder**
